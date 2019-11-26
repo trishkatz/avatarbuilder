@@ -12,8 +12,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## API Documentation
 
-Navigate to `https://app.swaggerhub.com/apis-docs/trishkatz/Unity_Avatar_Builder/1.0.0#/`. An API auto mocking server will allow you to execute test requests.
+Navigate to [Avatar Builder API Documentation](https://app.swaggerhub.com/apis-docs/trishkatz/Unity_Avatar_Builder/1.0.0#/). An API auto mocking server will allow you to execute test requests.
 
 ## Workflow Preview
 
-Navigate to `https://kicl5q.axshare.com`.
+Navigate to [Avatar Builder Workflow](https://kicl5q.axshare.com).
