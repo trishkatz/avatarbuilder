@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "hsports-api-client-app": {
+    "avatar-builder-client-app": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/hsports-api-client-app",
+            "outputPath": "dist/avatar-builder-client-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "hsports-api-client-app:build"
+            "browserTarget": "avatar-builder-client-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "hsports-api-client-app:build:production"
+              "browserTarget": "avatar-builder-client-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "hsports-api-client-app:build"
+            "browserTarget": "avatar-builder-client-app:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "hsports-api-client-app-e2e": {
+    "avatar-builder-client-app-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "hsports-api-client-app:serve"
+            "devServerTarget": "avatar-builder-client-app:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "hsports-api-client-app:serve:production"
+              "devServerTarget": "avatar-builder-client-app:serve:production"
             }
           }
         },
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "hsports-api-client-app"
+  "defaultProject": "avatar-builder-client-app"
 }

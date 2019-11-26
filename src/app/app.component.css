@@ -1,0 +1,23 @@
+
+
+h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: .5407911001em;
+    color: #4d4b4b;
+    width: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.accessory {
+    border: 1px solid lightgray; 
+    padding: 5px; 
+    margin: 5px; 
+    width: 150px;
+    display: inline-table;
+}

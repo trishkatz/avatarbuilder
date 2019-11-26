@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AvatarService } from './rest/api/avatar.service';
+import { ThrowStmt } from '@angular/compiler';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hsports-api-client-app';
+  title = 'avatar-builder-client-app';
+  userAvatarType: string;
+  userAccessoryCollection: object;
+
+  constructor(private avatarService:AvatarService){
+    avatarService.getUserAvatar().subscribe(data => {
+      this.userAvatarType = data.userAvatarType;
+      this.userAccessoryCollection = data.accessories;
+    });
+  }
+
 }
+
+
